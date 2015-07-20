@@ -12,11 +12,13 @@
 #include <stdio.h>
 
 #if(CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+#include "SonarFrameworks.h"
+
 #include <jni.h>
 #include "platform/android/jni/JniHelper.h"
 #include <android/log.h>
 #include "cocos2d.h"
-#include "SonarCocosHelper/SonarFrameworks.h"
+
 #endif
 
 #ifdef __cplusplus
